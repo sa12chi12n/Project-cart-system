@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Create page css */
+.create-page{
+ margin: 1rem 2rem;
+}
+
+.cardyy{
+    background-color: #aace68;
+    padding: 2rem 2rem;
+    color: white;
+    border-radius: 0px 50px 0px 50px;
+    box-shadow: 10px 15px 5px rgb(134, 105, 105);
+    
+}
+
+
+
+/* Home page css */
+
+.grid{
+    display: grid;
+    width:90%;
+    
+}
+.three-col{
+grid-template-columns: repeat(3,4fr);
+}
+.title-heading{
+    color: #71ab04;
+    font: 2rem;
+    text-align: center;
+    margin: 1rem 0rem;
+}
+
+.shop-now-btn{
+   align-items: center;
+   margin-bottom: 0.5rem;
+}
+.create-card{
+    text-align: center;
+   
+   
+}
+.center-card{
+    margin: 0px 12px;
+}
+.acc-line{
+    text-decoration: none;
+    padding: 1rem 1rem;
+   
+   
+}
+.center-card{
+    background-color: #f3f2ef;
+   
+    
+}
+.product-name{
+    color: red;
+    font-size: 30px;
+}
+.edit-btn{
+    color: white;
+    background-color: rgb(12, 180, 54);
+    height: 2rem;
+    width: 3rem;
+    border-radius:5px;
+    padding: 3px;
+    text-align:center;
+    cursor: pointer;
+ align-content: end;
+}
+
+/* Update page css */
+
+.cardy{
+    background-color:rgb(173, 114, 140);
+    color: rgb(202, 202, 202);
+    padding: 2rem 2rem;
+    box-shadow: 10px 20px 5px rgb(134, 105, 105);
+   
+}
